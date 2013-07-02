@@ -13,6 +13,7 @@ Before using it you'll need to have installed:
 
 To install, just copy remove_keywords.php into ~/wp-content/plugins/faf/filters/
 
-Regular expressions can then be used as a filter in order to be removed... 
+A new filter is then available which will allow you to use regular expressions
+in order to removed text or HTML parts from te posts.
 Just be careful if you mix it with existing "Image Filters" or "Remove HTML from post" 
-filters as the HTML as an input is not necessarily the HTML which will be passed to the Regexp filter
+filters as the input HTML to this filter is not necessarily the full HTML from the original article
