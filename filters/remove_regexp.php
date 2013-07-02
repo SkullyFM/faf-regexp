@@ -31,7 +31,8 @@ class faf_remove_regexp extends fafFilter
 		if (isset($args["filter_remove_regexp"]))
                 {
 			$filter_remove_regexp = $args["filter_remove_regexp"];
-			// Add a slash in front and one at the back plus the case insensitive (i) option to generate the regular expression
+			// Add a slash in front and one at the back plus the case insensitive (i) option 
+			// to generate the regular expression
 			$filter_remove_regexp = "/".$filter_remove_regexp."/i";
 			// Replace 2 slashes by 1 just in case the user did add them in his regular expression
 			// Do it only at the beginning and at the end in case the regular expression had 2 slashes
