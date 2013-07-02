@@ -2,8 +2,8 @@ faf-regexp
 ==========
 (FeedWordPress Advanced Filters - Regexp Filter)
 
-This filter is an addon for: 
-http://www.weblogmechanic.com/plugins/feedwordpress-advanced-filters/ 
+This filter is an addon for:
+http://www.weblogmechanic.com/plugins/feedwordpress-advanced-filters/
 (also available here: http://wordpress.org/plugins/faf/)
 
 Before using it you'll need to have installed:
@@ -11,7 +11,7 @@ Before using it you'll need to have installed:
 - Feedwordpress plugin
 - FeedWordPress Advanced Filters plugin
 
-To install, just copy remove_keywords.php into ~/wp-content/plugins/faf/filters/
+To install, just copy `remove_keywords.php` into `~/wp-content/plugins/faf/filters/`
 
 A new filter is then available which will allow you to use regular expressions
 in order to removed text or HTML parts from te posts.
