@@ -14,6 +14,6 @@ Before using it you'll need to have installed:
 To install, just copy `remove_keywords.php` into `~/wp-content/plugins/faf/filters/`
 
 A new filter is then available which will allow you to use regular expressions
-in order to removed text or HTML parts from te posts.
+in order to remove text or HTML parts from the posts.
 Just be careful if you mix it with existing "Image Filters" or "Remove HTML from post" 
 filters as the input HTML to this filter is not necessarily the full HTML from the original article
